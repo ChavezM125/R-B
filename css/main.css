@@ -1,0 +1,256 @@
+/*================
+      GENERAL
+================*/
+body {
+    margin: 0;
+    background-color: #f3f3f3;
+    /*#a0dbfe  C0FAA5  f3f3f3*/
+    font-family: Helvetica;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+.navi a:visited,
+.m_navi a:visited,
+.inicio a:visited {
+    color: #fff;
+}
+
+.navi a:hover {
+    color: #B1D0F2;
+}
+
+.selected a:visited{
+    color: #B1D0F2;
+}
+
+/*================
+      HEADER
+================*/
+header {
+    width: 100%;
+    background-color: #116CCF;  /*8DB036 1D547B 3272B2*/
+    float: left;
+    margin: 0;
+    /*For Hamburger*/
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+header a {
+    float: left;
+}
+
+.header {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.marca {
+    margin: 10px;
+}
+
+.marca img {
+    max-height: 80px;
+}
+
+/*================
+    NAVIGATION
+================*/
+
+#hamburger div {
+    background-color: #fff;
+}
+
+.navi {
+    float: right;
+    max-width: 828px;
+    margin: 33px 30px 25px;
+}
+
+.navi ul {
+    margin: 0;
+}
+
+.navi li {
+    font-weight: 100;
+    font-size: 1em;
+    list-style: none;
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.navi a {
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.m_navi {
+    opacity: 0;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 0;
+    width: 50%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #3e3c3d;
+    background: -moz-linear-gradient(top, #3e3c3d 0%, #2d2c2d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3e3c3d), color-stop(100%, #2d2c2d));
+    background: -webkit-linear-gradient(top, #3e3c3d 0%, #2d2c2d 100%);
+    background: -o-linear-gradient(top, #3e3c3d 0%, #2d2c2d 100%);
+    background: -ms-linear-gradient(top, #3e3c3d 0%, #2d2c2d 100%);
+    background: linear-gradient(to bottom, #3e3c3d 0%, #2d2c2d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e3c3d', endColorstr='#2d2c2d', GradientType=0);
+    transition: all 0.6s;
+}
+
+.m_navi ul {
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.m_navi li {
+    position: relative;
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: 1px solid #222222;
+    border-top: 1px solid #444444;
+    padding: 15px;
+}
+
+.m_navi a li {
+    color: #fff;
+    text-decoration: none;
+}
+
+.abrir {
+    transform: translateX();
+    transition: all 0.3s;
+}
+
+/*=============
+    SLIDER
+=============*/
+#c-slider {
+    margin: auto;
+    width: 90%;
+    max-width: 900px;
+    position: relative;
+    box-shadow: 0 0 0 10px #fff,
+                0 15px 50px;
+}
+
+#slider {
+    display: flex;
+    width: 400%;
+}
+
+#slider section {
+    width: 100%;
+}
+
+#slider img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#btn-prev, #btn-next {
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255, 0.5);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+#btn-prev:hover, #btn-next:hover {
+    background: rgba(255,255,255, 1);
+}
+
+#btn-prev   {
+    left: 10px;
+}
+#btn-next   {
+    right: 10px;
+}
+/*=============
+    NOSOTROS
+=============*/
+
+#nosotros {
+    background-color: #fff;
+}
+
+.contenido h2 {
+    margin: 0;
+    padding: 180px 40px 80px;
+    text-align: center;
+    font-size: 2.4em;
+    color: #44A4D0;
+}
+
+.l-contenido,
+.mv-contenido {
+    padding: 0;
+    margin: 0;
+}
+
+.l-contenido li,
+.mv-contenido li {
+    display: inline-block;
+}
+
+.l-contenido img {
+    max-height: 315px; 
+}
+
+.l-contenido p {
+    max-width: 900px;
+    padding: 0 20px 80px;
+}
+
+.contenido p,
+.mv p {
+    margin: 0;
+    text-align: justify;
+    color: #333;
+    font-size: 1.05em;
+}
+
+.mv-contenido li {
+    max-width: 200px;
+    padding: 0 20px 80px;
+}
+
+.mv h2 {
+    margin: 0;
+    padding: 0 40px 40px;
+    text-align: center;
+    font-size: 2.4em;
+    color: #44A4D0;
+}
+
+.mv p {
+    text-align: center;
+    font-style: italic;
+    padding: 0 10px 80px;
+}
