@@ -4,8 +4,17 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" media ="all" href="css/main.css">
 	<link rel="icon" type="image/png" href="images/favicon.png">
-	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<link rel="stylesheet" href="style.css">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<!-- Slider-->
+	<script src="js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript"> 
+	$(window).on('load', function() {
+    $('#slider').nivoSlider(); 
+	}); 
+	</script>
+	<link rel="stylesheet" href="css/nivo-slider.css">
+	<link rel="stylesheet" href="css/mi-slider.css">
+<!--	<link rel="stylesheet" href="themes/bar/bar.css">-->
 	<title>INICIO</title>
 </head>
 <body>
@@ -30,24 +39,19 @@
 				</nav>
 			</div>
 	</header>
-	<div id="c-slider">
-		<div id="slider">
-			<section>
-				<img src="images/slider1.jpg" alt>
-			</section>
-			<section>
-				<img src="images/slider2.jpg" alt>
-			</section>
-			<section>
-				<img src="images/slider3.jpg" alt>
-			</section>
-			<section>
-				<img src="images/slider4.jpg" alt>
-			</section>
-		</div>
-		<div id="btn-prev">&#60;</div>
-		<div id="btn-next">&#62;</div>
-	</div>
-<script type="js/functions.js"></script>
+	    <!-- ==========================================
+	                        SLIDER                
+	    =========================================== -->	
+<div class="slider-wrapper theme-mi-slider">
+<div id="slider" class="nivoSlider">     
+    <img src="images/slider1.jpg" alt="" />    
+    <img src="images/slider2.jpg" alt="" title="#htmlcaption" />     
+    <img src="images/slider3.jpg" alt="" title="Esto es un ejemplo" />     
+    <img src="images/slider4.jpg" alt="" /> 
+</div> 
+<div id="htmlcaption" class="nivo-html-caption">     
+    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a lwink</a>. 
+</div>
+</div>
 </body>
 </html>
