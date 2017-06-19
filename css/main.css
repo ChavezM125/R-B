@@ -27,6 +27,18 @@ a:link,
     color: #B1D0F2;
 }
 
+#contentLayer {
+    display: none;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    z-index: 5;
+}
+
 /*================
       HEADER
 ================*/
@@ -199,4 +211,36 @@ header a {
     text-align: center;
     font-style: italic;
     padding: 0 10px 80px;
+}
+
+/*=============
+  SERVICIOS
+=============*/
+
+#servicios {
+    text-align: center;
+    color: #3272B2;
+}
+
+#serv1 ul {
+    margin:0;
+    padding: 0;
+}
+
+#serv1 li {
+    display: inline-block;
+    margin: 30px 20px;
+}
+
+
+#serv1 img {
+        margin:0 0 -4;
+    padding: 0
+}
+
+.service p {
+    width: 400px;
+    background-color: #fff;
+    margin: 0;
+    padding: 10px 0;
 }
