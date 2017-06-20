@@ -44,7 +44,7 @@ a:link,
 ================*/
 header {
     width: 100%;
-    background-color: #116CCF;  /*8DB036 1D547B 3272B2*/
+    background-color: #041935;  /*8DB036 1D547B 3272B2*/
     float: left;
     margin: 0;
     /*For Hamburger*/
@@ -67,7 +67,7 @@ header a {
 }
 
 .marca img {
-    max-height: 80px;
+    max-height: 150px;
 }
 
 /*================
@@ -85,15 +85,15 @@ header a {
 }
 
 .navi ul {
-    margin: 0;
+    margin-top: 5%;
 }
 
 .navi li {
     font-weight: 100;
-    font-size: 1em;
+    font-size: 1.5em;
     list-style: none;
     display: inline-block;
-    padding: 0 12px;
+    padding: 0 24px;
 }
 
 .navi a {
@@ -266,13 +266,13 @@ footer {
 footer ul {
     padding: 0;
     margin: 0 auto;
-    max-width: 834px;
+    max-width: 900px;
 }
 
 .info {
     display: inline-block;
     margin: 45px 0 45px 40px;
-    width: 235px;
+    width: 245px;
 }
 
 .f-titulo {
