@@ -244,3 +244,74 @@ header a {
     margin: 0;
     padding: 10px 0;
 }
+
+
+/*================
+      FOOTER
+================*/
+
+footer {
+    background-color: #F1F4F7;
+    margin: 0;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 834px;
+}
+
+.info {
+    display: inline-block;
+    margin: 45px 0 45px 40px;
+    width: 235px;
+}
+
+.f-titulo {
+    float: left;
+    width: 100%;
+    height: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #47525D;
+}
+
+.f-titulo img {
+    max-height: 30px;
+    float: left;
+}
+
+.f-titulo h2 {
+    font-size: 1.2em;
+    font-weight: 100;
+    color: #47525D;
+    margin: 4px 0 4px 10px; 
+    float: left;
+}
+
+.f-desc p {
+    font-size: 0.9em;
+    font-weight: 100;
+    color: #9C9E9A;
+    margin: 4px 0 0;
+}
+
+.info a {
+    color: #9C9E9A;
+}
+
+h1 {
+    background-color: #232424;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 100;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+#tori:link,
+#tori:visited {
+    color: #ed2526;
+}
