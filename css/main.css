@@ -81,7 +81,7 @@ header a {
 .navi {
     float: right;
     max-width: 828px;
-    margin: 33px 30px 25px;
+    margin-top: 6%;
 }
 
 .navi ul {
