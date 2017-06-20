@@ -152,6 +152,14 @@ header a {
 }
 
 /*=============
+    INICIO
+=============*/
+
+#slider img {
+    max-height: 500px;
+    height: 100%;
+}
+/*=============
     NOSOTROS
 =============*/
 
