@@ -67,7 +67,7 @@ header a {
 }
 
 .marca img {
-    max-height: 150px;
+    max-height: 120px;
 }
 
 /*================
@@ -85,7 +85,7 @@ header a {
 }
 
 .navi ul {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .navi li {
