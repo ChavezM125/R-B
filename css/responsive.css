@@ -1,0 +1,292 @@
+@media screen and (max-width: 1268px) {
+	.i-servicio ul {
+		max-width: 420px;
+	}
+
+	.slogan h2 {
+		font-size: 2em;
+	}
+
+	.inicio a:link,
+	.inicio a:visited {
+		font-size: 1em;
+	}
+
+	.inicio {
+	background-size: 1000px 600px;
+	}
+
+	.l-contenido {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#pic-nos {
+		display: none;
+	}
+
+	.contactenos {
+		max-width: 800px;
+	}
+
+	.formulario {
+		width: 400px;
+	}
+
+	.row,
+	.formulario input,
+	.formulario textarea {
+		width: 100%;
+	}
+
+	.map_container {
+		max-width: 100%;
+					
+	}
+
+	/*.map {
+		width: 95%;
+		margin: 30px 0 0;
+	}*/
+
+}
+
+@media screen and (max-width: 1005px) {
+	.i-servicio ul {
+		max-width: 420px;
+	}
+
+	.slogan {
+		padding-left: 400px;
+		max-width: 350px;
+	}
+
+	.inicio {
+		background-size: 700px 450px;
+		padding: 0;
+	}
+
+	.mv-contenido li {
+		padding: 0 20px 30px;
+	}
+
+}
+
+@media screen and (min-width: 889px) {
+	.m_navi {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 888px) {
+	
+	html {
+	    overflow-y: scroll;
+	}
+
+	body {
+    	margin: 0;
+    	padding: 0;
+    	overflow-x: hidden;
+	}
+
+	#hamburger {
+	    cursor: pointer;
+	    display: block;
+	    float: left;
+	    height: 24px;
+	    margin: 36.5px 0 36.5px 20px;
+	    position: relative;
+	    width: 25px;
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4569b2', endColorstr='#4062a5', GradientType=0);
+	}
+
+	#hamburger div {
+	    border: 1px solid #eee;
+	    border-radius: 2px 2px 2px 2px;
+	    height: 2px;
+	    margin-top: 3px;
+	    width: 90%;
+	}
+
+	.navi,
+	footer ul {
+		display: none;
+	}
+
+	header a {
+		float: right;
+	}
+
+	.contactenos {
+		max-width: 700px;
+	}
+
+	.formulario {
+		width: 300px;
+	}
+
+    .marca img {
+    	max-width: 100px;
+    	margin: 10.5px 10.5px 10.5px 0;
+    }	
+}
+
+@media screen and (max-width: 750px) {
+	.contactenos {
+		max-width: 500px;
+	}
+
+	.direccion {
+		padding-right: 15px;
+	}
+
+	.formulario {
+		width: 200px;
+		margin-left: 10px;
+	}
+
+	.formulario input,
+	.formulario textarea {
+		padding: 10px;
+	}
+
+}
+
+@media screen and (max-width: 439px){
+	.list1 img,
+    .list2 img {
+		width: 100%;
+		height: 170px;
+	}
+    
+    #saneamiento li,
+    #gestion li {
+    	width: 85%;
+    	margin: 20px auto;	
+    }
+
+    .list1 p,
+    .list2 p {
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 414px) {
+    .slogan {
+		padding: 170px 0px 200px 135px;
+		max-width: 350px;
+	}
+
+	.inicio {
+		background-size: 420px 220px;
+	}
+    
+    .i-servicio ul {
+		width: 300px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	
+    .l-servicio,
+	#sa,
+	#ge,
+	#co {
+		width: 300px;
+		margin: 0 ;
+	}
+    
+    .direccion {
+		border-right: none;
+		border-bottom: 2px solid #d1d1d1;	
+	}
+
+	.init_map {
+		max-width: 400px;
+		margin:0 50px;
+	}
+
+	#legal li {
+    	margin: 20px 7.5%;	
+    }
+
+    #gmap_canvas {
+	height: 500px;
+	width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+	
+	.inicio {
+		background-size: 360px 200px;
+	}
+
+	.slogan {
+		padding: 190px 20px 100px 170px;
+	}
+
+	.slogan h2 {
+		font-size: 1em;
+	}
+
+	.slogan a {
+		font-size: 0.7em;
+	}
+
+	.i-servicio h2 {
+		font-size: 2em;
+	}
+
+	.i-servicio ul {
+		width: 300px;
+		margin: 0 auto;
+		padding: 30px 0;
+	}
+	.l-servicio,
+	#sa,
+	#ge,
+	#co {
+		width: 300px;
+	}
+	.contactenos {
+		max-width: 320px;
+	}
+
+	.contactenos li {
+		padding: 0;
+	}
+
+	.info-contacto {
+		width: 300px;
+		margin: 50px 10px 10px;
+	}
+
+	.direccion {
+		border-right: none;
+		border-bottom: 2px solid #d1d1d1;
+		
+	}
+
+	.formulario {
+		width: 300px;
+		margin: 50px 10px 10px;
+	}
+
+	.formulario input,
+	.formulario textarea {
+		width: 280px;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	.marca img {
+		max-width: 80px;
+	}
+	
+}
