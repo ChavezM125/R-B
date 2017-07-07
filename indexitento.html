@@ -6,17 +6,29 @@
     <link rel="stylesheet" href="fonts.css">
     <meta rel="viewport" content="with=device-width, user-scalable=no, initial-scale=1.0, minimun-scale=1.0">
 	<link rel="stylesheet" media ="all" href="css/main.css">
-	<link rel="stylesheet" media ="all" href="css/animate.css">
 	<link rel="icon" type="image/png" href="images/favicon.png">
+	<script src="js/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" media="all" href="css/responsive.css">
-	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<title>SERVICIOS</title>
+	<!-- Slider-->
+	<script src="js/jquery.nivo.slider.js"></script>
+	<script type="text/javascript"> 
+	$(window).on('load', function() {
+    $('#slider').nivoSlider(); 
+	}); 
+	</script>
+	<link rel="stylesheet" href="css/nivo-slider.css">
+	<link rel="stylesheet" href="css/mi-slider.css">
+<!--	<link rel="stylesheet" href="themes/bar/bar.css">-->
+	<title>INICIO</title>
 </head>
 <body>
 	    <!-- ==========================================
 	                        HEADER                
 	    =========================================== -->
 	<header>
+            <div class="menu_bar">
+                <a href="#" class="bt-menu"><span class="icon-menu"></span></a>
+            </div>
 			<div class="header">
 				<a href="index.html">
 					<div class="marca">
@@ -25,47 +37,30 @@
 				</a>
 				<nav class="navi">
 					<ul>
-						<li><a href="index.html">Inicio</a></li>
+						<li class="selected"><a href="index.html">Inicio</a></li>
 						<li><a href="nosotros.html">Nosotros</a></li>
-						<li class="selected"><a href="servicios.html">Servicios</a></li>
+						<li><a href="servicios.html">Servicios</a></li>
 						<li><a href="contactenos.html">Contactenos</a></li>
 					</ul>
 				</nav>
 			</div>
 	</header>
-<div id="contentLayer"></div>	
-<section id="servicios">
- <div id="serv1">
- 	<div class="animated bounceInUp">
- 	 	<ul class="service">
- 		<li>
- 		<img src="images/service1.jpg" width="400" height="250">
- 			<p>FABRICACION, RECONSTRUCCION DE PINES Y BOCINAS</p>
- 		</li>
- 		<li>
- 		<img src="images/service2.jpg" width="400" height="250">
- 			<p>FABRICACION, RECONSTRUCCION DE CUCHARONES Y LAMPONES</p>
- 		</li>
- 		<li>
- 		<img src="images/service3.jpg" width="400" height="250">
- 			<p>SOLDADURA UNIVERSAL</p>
- 		</li>
- 		<li>
- 		<img src="images/service4.jpg" width="400" height="250">
- 			<p>RECONSTRUCCION Y REPARACION DEL SISTEMA DE RODAMIENTO</p>
- 		</li>
- 		<li>
- 		<img src="images/service5.jpg" width="400" height="250">
- 			<p>BARRENAMIETNO DE ALOJAMINETOS</p>
- 		</li>
-		<li>
- 		<img src="images/service6.jpg" width="400" height="250">
- 			<p>SERVICIO SOLCAMP</p>
- 		</li> 		
- 	</ul>
- 	</div>
- </div>	
-</section>
+	    <!-- ==========================================
+	                        SLIDER                
+	    =========================================== -->	
+<div class="slider-wrapper theme-mi-slider">
+	<div id="slider" class="nivoSlider">     
+    	<img src="images/slider1.jpg" alt="" />    
+    	<img src="images/slider2.jpg" alt="" />     
+    	<img src="images/slider3.jpg" alt="" />     
+    	<img src="images/slider4.jpg" alt="" /> 
+        <img src="images/slider5.jpg" alt="" /> 
+        <img src="images/slider6.jpg" alt="" /> 
+	</div> 
+	<div id="htmlcaption" class="nivo-html-caption">     
+    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a lwink</a>. 
+	</div>
+</div>
 <footer>
             <ul>
                 <li class="info">
@@ -74,9 +69,9 @@
                         <h2>Oficina</h2>
                     </div>
                     <div class="f-desc">
-		 			<p>Calle Melgar Mz. 3 Lote B <br>
-		 			AS por la variante de Ancón <br>
-		 			– Ancón – Lima</p> 
+                        <p>Jr. Augusto Salazar Bondy 2077<br>
+                        Urbanzaci&oacute;n Pac&iacute;fico<br>
+                        San Mart&iacute;n de Porres</p> 
                     </div>
                 </li>
                 <li class="info">
@@ -103,7 +98,8 @@
                     </div>
                 </li>
             </ul>
-</footer>	
+</footer>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="menu.js"></script>			
+    <script src="menu.js"></script>
 </body>
+</html>
